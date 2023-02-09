@@ -1,9 +1,11 @@
 import { Header } from './pages/Header'
+import { Presentantion } from './pages/Presentation'
 
 function Home() {
   return (
-    <div className="App">
+    <div>
       <Header />
+      <Presentantion />
     </div>
   )
 }
