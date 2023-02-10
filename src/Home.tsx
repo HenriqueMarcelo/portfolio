@@ -1,14 +1,13 @@
-import { Header } from './pages/Header'
-import { Presentantion } from './pages/Presentation'
-import { Project } from './pages/Project'
+import { Header } from './sections/Header'
+import { Presentantion } from './sections/Presentation'
+import { Projects } from './sections/Projects'
 
 function Home() {
   return (
     <div>
       <Header />
       <Presentantion />
-      <Project />
-      <Project orientation="right" />
+      <Projects />
     </div>
   )
 }
