@@ -28,7 +28,9 @@ export function Project({ orientation = 'left' }: ProjectProps) {
           ipsum primis in faucibus orci luctus et ultrices posuere cubilia
           curae;
         </p>
-        <div className=" flex gap-5">
+        <div
+          className={`flex gap-5 ${orientation === 'right' && 'justify-end'}`}
+        >
           <a className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer">
             GitHub
           </a>
