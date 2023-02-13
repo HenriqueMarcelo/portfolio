@@ -1,4 +1,5 @@
 import { Translate } from 'phosphor-react'
+import { DropdownLanguage } from '../components/DropdownLanguage'
 
 export function Header() {
   return (
@@ -12,10 +13,10 @@ export function Header() {
           <a className="hover:text-orange-300 transition-all" href="#">
             Projetos
           </a>
-          <button className="flex items-center gap-2 hover:text-orange-300 transition-all">
+          <DropdownLanguage>
             <Translate size={16} weight="fill" />
             Português
-          </button>
+          </DropdownLanguage>
         </nav>
       </div>
     </header>

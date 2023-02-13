@@ -31,10 +31,10 @@ export function Project({ orientation = 'left' }: ProjectProps) {
         <div
           className={`flex gap-5 ${orientation === 'right' && 'justify-end'}`}
         >
-          <a className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer">
+          <a className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition">
             GitHub
           </a>
-          <a className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer">
+          <a className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition">
             Link
           </a>
         </div>
