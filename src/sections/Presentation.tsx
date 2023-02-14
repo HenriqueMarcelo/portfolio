@@ -10,12 +10,13 @@ export function Presentantion() {
               className=""
             />
           </div>
-          <div className="col-span-2 text-right pl-80 flex items-center justify-end">
-            <div className="inline-block">
+          <div className="col-span-2 text-right flex items-center justify-end">
+            <div className="">
               <h2 className="text-6xl">Lorem ipsum</h2>
               <hr className="h-1 w-32 my-4 bg-orange-600 border-0 mr-0 ml-auto"></hr>
               <div className="flex">
-                <p className="w-0 flex-grow leading-7">
+                {/* <p className="w-0 flex-grow leading-7"> */}
+                <p className="leading-7">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   eros nibh, convallis molestie eleifend suscipit, iaculis at
                   turpis. Maecenas volutpat venenatis velit eu finibus. Praesent
