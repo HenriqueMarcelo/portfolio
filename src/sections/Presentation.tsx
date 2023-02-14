@@ -1,15 +1,15 @@
+import maroon from '../assets/maroon.png'
+import silver from '../assets/silver.png'
+
 export function Presentantion() {
   return (
     <section className="bg-neutral-900 pb-20">
       <article className="container mx-auto ">
-        <div className="p-24 bg-neutral-300 rounded-lg mx-8">
-          <div className="grid grid-cols-3 gap-4">
-            <div>
-              <img
-                src="http://via.placeholder.com/420x580.png/7E7E7E"
-                alt=""
-                className=""
-              />
+        <div className="p-8 sm:p-24 bg-neutral-300 rounded-lg mx-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-16">
+            <div className="col-span-2 sm:col-span-1">
+              <img src={silver} className="sm:hidden" />
+              <img src={maroon} className="hidden sm:block" />
             </div>
             <div className="col-span-2 text-right flex items-center justify-end">
               <div className="">
@@ -27,7 +27,7 @@ export function Presentantion() {
                     vel lorem finibus, nec ullamcorper diam ornare. Vestibulum
                     ante ipsum primis in faucibus orci luctus et ultrices
                     posuere cubilia curae;
-                    <div className="flex gap-4 justify-end mt-8">
+                    <span className="flex gap-4 justify-end mt-8">
                       <a
                         href=""
                         className="text-orange-600 font-bold text-lg hover:underline"
@@ -40,7 +40,7 @@ export function Presentantion() {
                       >
                         Github
                       </a>
-                    </div>
+                    </span>
                   </p>
                 </div>
               </div>

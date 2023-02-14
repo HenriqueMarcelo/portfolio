@@ -1,3 +1,5 @@
+import silver from '../assets/silver.png'
+
 interface ProjectProps {
   orientation?: 'right' | 'left'
 }
@@ -5,10 +7,10 @@ interface ProjectProps {
 export function Project({ orientation = 'left' }: ProjectProps) {
   return (
     <article className="container mx-auto px-8">
-      <div className="grid grid-cols-2 gap-32 pb-20">
+      <div className="grid grid-cals-1 gap-8 sm:grid-cols-2 sm:gap-32 pb-20">
         {orientation === 'right' && (
           <div className="">
-            <img src="http://via.placeholder.com/574x612.png/7E7E7E" alt="" />
+            <img src={silver} alt="" />
           </div>
         )}
         <div className={`text-${orientation}`}>
@@ -42,11 +44,7 @@ export function Project({ orientation = 'left' }: ProjectProps) {
         </div>
         {orientation === 'left' && (
           <div className="">
-            <img
-              src="http://via.placeholder.com/574x612.png/7E7E7E"
-              alt=""
-              className="ml-auto"
-            />
+            <img src={silver} alt="" className="ml-auto" />
           </div>
         )}
       </div>
