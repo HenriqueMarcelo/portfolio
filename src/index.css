@@ -31,3 +31,8 @@
     border-bottom: 10px solid rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
+@responsive {
+  .text-custom-right { 
+    text-align: right;
+   }
+}

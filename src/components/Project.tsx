@@ -13,7 +13,12 @@ export function Project({ orientation = 'left' }: ProjectProps) {
             <img src={silver} alt="" />
           </div>
         )}
-        <div className={`text-${orientation}`}>
+        {orientation === 'left' && (
+          <div className="block sm:hidden">
+            <img src={silver} alt="" />
+          </div>
+        )}
+        <div className={`sm:text-custom-${orientation}`}>
           <h2 className="text-6xl mb-6">Fusce aliquet</h2>
           <h3 className="text-4xl mb-4">lacus quis semper</h3>
           <p className="leading-7 mb-12">
@@ -43,7 +48,7 @@ export function Project({ orientation = 'left' }: ProjectProps) {
           </div>
         </div>
         {orientation === 'left' && (
-          <div className="">
+          <div className="hidden sm:block">
             <img src={silver} alt="" className="ml-auto" />
           </div>
         )}
