@@ -18,7 +18,7 @@ export function Project({ orientation = 'left' }: ProjectProps) {
             <img src={silver} alt="" />
           </div>
         )}
-        <div className={`sm:text-custom-${orientation}`}>
+        <div className={`sm:text-${orientation}`}>
           <h2 className="text-6xl mb-6">Fusce aliquet</h2>
           <h3 className="text-4xl mb-4">lacus quis semper</h3>
           <p className="leading-7 mb-12">
@@ -37,7 +37,9 @@ export function Project({ orientation = 'left' }: ProjectProps) {
             posuere cubilia curae;
           </p>
           <div
-            className={`flex gap-5 ${orientation === 'right' && 'justify-end'}`}
+            className={`flex gap-5 ${
+              orientation === 'right' && 'sm:justify-end'
+            }`}
           >
             <a className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition">
               GitHub

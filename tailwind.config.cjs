@@ -9,5 +9,6 @@ module.exports = {
       },
     },
   },
+  safelist: ['sm:text-right', 'sm:text-left'],
   plugins: [],
 }
