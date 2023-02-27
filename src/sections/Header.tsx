@@ -18,10 +18,16 @@ export function Header() {
             ک
           </div>
           <nav className="gap-14 hidden sm:flex">
-            <a className="hover:text-orange-300 transition-all" href="#">
+            <a
+              className="hover:text-orange-300 transition-all"
+              href="#presentation"
+            >
               Apresentação
             </a>
-            <a className="hover:text-orange-300 transition-all" href="#">
+            <a
+              className="hover:text-orange-300 transition-all"
+              href="#projects"
+            >
               Projetos
             </a>
             <DropdownLanguage>

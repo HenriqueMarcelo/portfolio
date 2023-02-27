@@ -19,10 +19,13 @@ export function MobileAsideNav() {
         <button className="w-100 flex justify-end" onClick={handleToggleMenu}>
           <X size="22"></X>
         </button>
-        <a className="hover:text-orange-300 transition-all" href="#">
+        <a
+          className="hover:text-orange-300 transition-all"
+          href="#presentation"
+        >
           Apresentação
         </a>
-        <a className="hover:text-orange-300 transition-all" href="#">
+        <a className="hover:text-orange-300 transition-all" href="#projects">
           Projetos
         </a>
         <DropdownLanguage>
