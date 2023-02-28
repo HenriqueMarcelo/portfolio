@@ -2,8 +2,10 @@ import { List, Translate } from 'phosphor-react'
 import { useContext } from 'react'
 import { DropdownLanguage } from '../components/DropdownLanguage'
 import { MenuContext } from '../contexts/MenuContext'
+import { useTranslation } from 'react-i18next'
 
 export function Header() {
+  const { t } = useTranslation()
   const { toggle } = useContext(MenuContext)
 
   function handleToggleMenu() {
@@ -22,17 +24,17 @@ export function Header() {
               className="hover:text-orange-300 transition-all"
               href="#presentation"
             >
-              Apresentação
+              {t('presentation')}
             </a>
             <a
               className="hover:text-orange-300 transition-all"
               href="#projects"
             >
-              Projetos
+              {t('projects')}
             </a>
             <DropdownLanguage>
               <Translate size={16} weight="fill" />
-              Português
+              {t('currentLanguage')}
             </DropdownLanguage>
           </nav>
           <button className="sm:hidden" onClick={handleToggleMenu}>
