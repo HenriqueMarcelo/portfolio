@@ -14,10 +14,10 @@ export function Presentantion() {
               <img src={silver} className="sm:hidden" />
               <img src={maroon} className="hidden sm:block" />
             </div>
-            <div className="col-span-2 text-right flex items-center justify-end">
+            <div className="col-span-2 sm:text-right flex items-center justify-end">
               <div className="">
-                <h2 className="text-6xl">{t('title')}</h2>
-                <hr className="h-1 w-32 my-4 bg-orange-600 border-0 mr-0 ml-auto"></hr>
+                <h2 className="text-4xl sm:text-6xl">{t('title')}</h2>
+                <hr className="h-1 w-32 my-4 bg-orange-600 border-0 mr-0 sm:ml-auto"></hr>
                 <div className="flex">
                   <p className="leading-7">
                     {t('description')}
