@@ -21,19 +21,19 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
 
   return (
     <article className="container mx-auto px-8">
-      <div className="grid grid-cals-1 gap-8 md:grid-cols-2 md:gap-32 pb-16 md:pb-20">
+      <div className="grid grid-cals-1 gap-8 md:grid-cols-2 lg:gap-32 pb-16 md:pb-20">
         <div className={orientation === 'left' ? 'block md:hidden' : ''}>
           <img src={project.image} alt="" />
         </div>
         <div className={`md:text-${orientation}`}>
-          <h2 className="text-4xl md:text-6xl">{project?.title}</h2>
+          <h2 className="text-4xl lg:text-6xl">{project?.title}</h2>
           {/* <h3 className="text-4xl mt-6">lacus quis semper</h3> */}
           {project?.description && (
             <p className="leading-7 mt-6">{project.description}</p>
           )}
           {project?.technologies && (
             <>
-              <h3 className="text-2xl md:text-4xl mt-12 ">
+              <h3 className="text-2xl lg:text-4xl mt-12">
                 {t('technologiesUsed')}
               </h3>
               <p className="leading-7 mt-4 ">{project.technologies}</p>
