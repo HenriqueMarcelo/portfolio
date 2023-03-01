@@ -1,9 +1,12 @@
 import { Translate, X } from 'phosphor-react'
 import { useContext } from 'react'
+import { useTranslation } from 'react-i18next'
 import { MenuContext } from '../contexts/MenuContext'
 import { DropdownLanguage } from './DropdownLanguage'
 
 export function MobileAsideNav() {
+  const { t } = useTranslation()
+
   const { toggle, hidden } = useContext(MenuContext)
   function handleToggleMenu() {
     toggle()
@@ -20,13 +23,13 @@ export function MobileAsideNav() {
           <X size="22"></X>
         </button>
         <a className="transition-all" href="#presentation">
-          Apresentação
+          {t('presentation')}
         </a>
         <a className="transition-all" href="#projects">
-          Projetos
+          {t('projects')}
         </a>
         <DropdownLanguage>
-          Português
+          {t('currentLanguage')}
           <Translate size={16} weight="fill" />
         </DropdownLanguage>
       </div>
