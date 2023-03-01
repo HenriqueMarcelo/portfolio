@@ -19,16 +19,14 @@
     width: 10px;
     height: 10px;
     position: absolute;
-    top: -10px;
+    top: -7px;
     left: 1rem;
 
-    top: -10px;
-    left: .5rem;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 10px solid rgb(229 229 229 / var(--tw-bg-opacity));
+    background: rgb(229 229 229 / var(--tw-bg-opacity));
+    border-top: 2px solid rgb(64 64 64 / var(--tw-border-opacity));
+    border-left: 2px solid rgb(64 64 64 / var(--tw-border-opacity));
+
+    transform: rotate(45deg);
 }
 
 @responsive {

@@ -15,7 +15,7 @@ export function DropdownLanguage({ children }: DropdownProps) {
 
   return (
     <DropdownMenu.Root>
-      <DropdownMenu.Trigger className="flex items-center gap-2 hover:text-orange-300 transition-all">
+      <DropdownMenu.Trigger className="flex items-center gap-2 sm:hover:text-orange-300 transition-all">
         {children}
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
