@@ -6,7 +6,7 @@ export function Presentantion() {
   const { t } = useTranslation()
 
   return (
-    <section className="bg-neutral-900 pb-20" id="presentation">
+    <section className="bg-neutral-900 pb-16 sm:pb-20" id="presentation">
       <article className="container mx-auto ">
         <div className="p-8 md:p-14 lg:p-24 bg-neutral-300 rounded-lg mx-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 lg:gap-16">

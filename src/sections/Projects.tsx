@@ -18,7 +18,7 @@ export function Projects() {
   }
 
   return (
-    <section className="bg-neutral-300 pt-20" id="projects">
+    <section className="bg-neutral-300 pt-16 sm:pt-20" id="projects">
       {projects.map((project, i) => {
         return (
           <Project
