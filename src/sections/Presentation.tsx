@@ -12,7 +12,10 @@ export function Presentantion() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 lg:gap-16">
             <div className="col-span-2 md:col-span-1">
               <img src={silver} className="md:hidden" />
-              <img src={maroon} className="hidden md:block" />
+              <img
+                src={maroon}
+                className="hidden md:block shadow-2xl shadow-neutral-500"
+              />
             </div>
             <div className="col-span-2 md:text-right flex items-center justify-end">
               <div className="">

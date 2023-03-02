@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import silver from '../assets/silver.png'
 
 export interface ProjectType {
   id: number
@@ -23,7 +22,11 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
     <article className="container mx-auto px-8">
       <div className="grid grid-cals-1 gap-8 md:grid-cols-2 lg:gap-32 pb-16 md:pb-20">
         <div className={orientation === 'left' ? 'block md:hidden' : ''}>
-          <img src={project.image} alt="" />
+          <img
+            src={project.image}
+            alt=""
+            className="shadow-2xl shadow-neutral-500 w-full"
+          />
         </div>
         <div className={`md:text-${orientation}`}>
           <h2 className="text-4xl lg:text-6xl">{project?.title}</h2>
@@ -47,7 +50,7 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
             {project?.github && (
               <a
                 href={project.github}
-                className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition"
+                className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition shadow-sm shadow-neutral-500"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -58,7 +61,7 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
             {project?.url && (
               <a
                 href={project.url}
-                className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition"
+                className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition shadow-sm shadow-neutral-500"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -68,8 +71,12 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
           </div>
         </div>
         {orientation === 'left' && (
-          <div className="hidden md:block">
-            <img src={silver} alt="" className="ml-auto" />
+          <div className="hidden md:block ">
+            <img
+              src={project.image}
+              alt=""
+              className="ml-auto shadow-2xl shadow-neutral-500"
+            />
           </div>
         )}
       </div>
