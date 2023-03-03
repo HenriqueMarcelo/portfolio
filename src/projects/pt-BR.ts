@@ -54,68 +54,58 @@ const projects = [
   {
     id: 4,
     title: 'Valesca Marotti',
-    description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
-    technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+    description: '',
+    technologies: '',
     image: imageValesca,
     url: 'https://www.valescamarotti.com.br/',
   },
   {
     id: 5,
     title: 'Toyoserra Seminovos',
-    description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
-    technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+    description: '',
+    technologies: '',
     image: imageSeminovos,
     url: 'http://seminovos.toyoserra.com.br/',
   },
   {
     id: 6,
     title: 'Nova Friburgo Country Clube',
-    description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
-    technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+    description: '',
+    technologies: '',
     image: imageNFCC,
     url: 'https://www.nfcc.com.br/',
   },
   {
     id: 7,
     title: 'CuboUP',
-    description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
-    technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+    description: '',
+    technologies: '',
     image: imageCubo,
   },
   {
     id: 8,
     title: 'Fator X Live',
-    description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
-    technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+    description: '',
+    technologies: '',
     image: imageFatorX,
   },
   {
     id: 9,
     title: 'Colors',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
-    technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'O projeto Colors é uma coleção de imagens de todas as cores disponíveis no CSS. Ele foi criado para criar wallpapers artísticos e simplistas. Ele foi criado utilizando curiosamente HTML e JavaScript. As imagens eram geradas dentro de uma tag <canvas> e o arquivo .png final foi criado simplesmente fazendo o download da imagem gerada. ',
+    technologies: 'Html, CSS e JavaScript',
     image: imageColors,
     github: 'https://github.com/HenriqueMarcelo/color-wallpaper',
+    url: 'https://github.com/HenriqueMarcelo/color-wallpaper#example-images',
   },
   {
     id: 10,
     title: 'Vocab++',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'O Vocab++ é um projeto que desenvolvi para auxiliar no aprendizado de vocabulário de línguas estrangeiras. Ele foi construído para que eu pudesse colocar em prática conhecimentos sobre Vue3 e ci/cd com GitHub Actions.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas tecnologias como: Vue3, SASS, Vite, ESLint, Github Actions',
     image: imageVocabPlusPlus,
     url: 'https://kursi.com.br/vocab-plus-plus/',
     github: 'https://github.com/HenriqueMarcelo/vocab-plus-plus',
@@ -124,9 +114,9 @@ const projects = [
     id: 11,
     title: 'Ignite Feed',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'O Ignnite Feed é um aplicativo web que simula o funcionamento de uma interface gráfica de um feed de uma rede social. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de aprender sobre React, Typescript e manipulação de datas.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas tecnologias como: React, Typescript, DateFNS, Faker e ESLint',
     image: imageIgniteFeed,
     url: 'https://henriquemarcelo.github.io/ignite-feed/',
     github: 'https://github.com/HenriqueMarcelo/ignite-feed',
@@ -135,9 +125,9 @@ const projects = [
     id: 12,
     title: 'Todo List',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'O To Do List é um aplicativo web que funciona como uma lista de tarefas. Com ele é possível criar tarefas, marcar como concluídas e remover as tarefas. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de ensinar os conceitos básicos do React, Typescript e manipulação de formulários.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas React e Typescript.',
     image: imageTodoList,
     url: 'https://henriquemarcelo.github.io/to-do-list/',
     github: 'https://github.com/HenriqueMarcelo/to-do-list',
@@ -146,9 +136,9 @@ const projects = [
     id: 12,
     title: 'Ignite Timer',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'Ignite Timer é um projeto de um timer de foco construído para ajudar as pessoas a gerenciar seu tempo e aumentar sua produtividade. Esse projeto foi criado com o objetivo de colocar em prática os conceitos de React, TypeScript e gerenciamento de estado com Context API, aprendidos durante o curso Ignite da Rocketseat.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas tecnologias como React, TypeScript e Context API. Além disso foi utilizado bibliotecas como styled-components, react-hook-form, zod, react-router-dom, entre outras.',
     image: imageIgniteTimer,
     url: 'https://henriquemarcelo.github.io/ignite-timer/#/',
     github: 'https://github.com/HenriqueMarcelo/ignite-timer',
@@ -157,9 +147,9 @@ const projects = [
     id: 12,
     title: 'DT Money',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'DT Money é um projeto de controle financeiro pessoal criado com o objetivo de auxiliar no gerenciamento de despesas e receitas. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o intuito de aplicar os conceitos de React e TypeScript na prática, além de aprimorar os conhecimentos em manipulação de estado, uso de API e estilização de componentes.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do DT Money, foram utilizadas tecnologias como React, TypeScript e Styled Components. Além disso, foram utilizadas bibliotecas como Axios, React Hook Form, Zod e Radix. O projeto também utiliza o conceito de contexto do React para gerenciar o estado global da aplicação.',
     image: imageDTMoney,
     github: 'https://henriquemarcelo.github.io/dt-money/',
   },
@@ -167,42 +157,42 @@ const projects = [
     id: 13,
     title: 'Coffee Delivery',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'O Coffee Delivery é um projeto de uma interface gráfica para uma loja virtual de cafés. Ele não está integrado com um back-end, mas foi criado para simular o front-end de uma aplicação real. Ele foi criado como um desafio no curso Ignite da Rocketseat com o objetivo de colocarmos em prática habilidades que foram aprendidas no curso, como a criação de uma aplicação React, componentes estilizados, useContext, SPA, formulários, Typescript, e muito mais.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do Coffee Delivery, foram utilizadas tecnologias como ReactJS, TypeScript, styled-components e a bibliotecas como: React Hook Form, React Router, Styled Components, Phosphor React e muito mais.',
     image: imageCoffeeDelivery,
     github: 'https://github.com/HenriqueMarcelo/coffee-delivery',
     url: 'https://coffee-delivery.kursi.com.br/',
   },
   {
-    id: 13,
+    id: 14,
     title: 'Github Blog',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      "O projeto Github Blog é uma aplicação web que permite aos usuários criarem e gerenciarem seus próprios blogs diretamente pelo Github. Ele foi desenvolvido como um desafio do curso Ignite da Rocketseat com o objetivo de colocarmos em práticas conceitos como: Acesso a API's, criação de aplicação do tipo SPA, leitura e exibição de Markdown, criação de componentes estilizados.",
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas tecnologias como React, Typescript, styled-components, Axios e a API do Github para integração com o Github Issues. Além disso, foram utilizadas bibliotecas como react-markdown, date-fns e react-hook-form. ',
     image: imageGithubBlog,
     github: 'https://github.com/HenriqueMarcelo/github-blog',
     url: 'https://github-blog.kursi.com.br/',
   },
   {
-    id: 13,
+    id: 15,
     title: 'Ignite Shop',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'Ignite Shop é um projeto desenvolvido durante o curso Ignite da Rocketseat. Trata-se de uma loja virtual que permite a visualização e compra de produtos. O objetivo do projeto é ensinar os alunos a construírem uma aplicação Next.JS, completa e funcional utilizando tecnologias modernas de desenvolvimento web.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas tecnologias como Next.js, ReactJS, Stitches, Typescript e integração com a API da Stripe.  Além disso, foram utilizadas bibliotecas como: axios, keen-slider, use-shopping-cart. Com essas tecnologias, foi possível criar uma aplicação com excelente performance e alta qualidade de código.',
     image: imageIgniteShop,
     github: 'https://github.com/HenriqueMarcelo/ignite-shop',
     url: 'https://ignite-shop-gilt.vercel.app/',
   },
   {
-    id: 13,
+    id: 16,
     title: 'Ignite Call',
     description:
-      'Explica pro Product Onwer que a disposição dos elementos HTML causou o bug da execução de requisições effcientes na API.',
+      'Ignite Call" é um projeto desenvolvido durante o curso Ignite da Rocketseat que tem como objetivo oferecer um sistema de agendamentos online integrado ao Google Agenda. Com ele, é possível cadastrar dias e horários disponíveis para agendamento e os clientes podem visualizar os horários disponíveis em um calendário e fazer o agendamento diretamente pelo sistema.',
     technologies:
-      'Explica pro Product Onwer que a compilação final do programa corrigiu o bug de uma configuração Webpack eficiente nos builds.',
+      'Para a construção do projeto, foram utilizadas diversas tecnologias, como Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios e MySQL, entre outras. Também foi necessário realizar o deploy do banco de dados na plataforma Planetscale e da aplicação no Vercel. O projeto foi uma oportunidade de aprender e aplicar conceitos importantes como integração de sistemas, manipulação de cookies, customização de componentes, querys SQL e otimizações de SEO.',
     image: imageIgniteCall,
     github: 'https://github.com/HenriqueMarcelo/ignite-call',
     url: 'https://ignite-call-alpha.vercel.app/',
