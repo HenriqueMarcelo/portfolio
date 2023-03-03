@@ -1,7 +1,6 @@
 import { Project, ProjectType } from '../components/Project'
 
-import ptBRProjects from '../projects/pt-BR'
-import enUSProjects from '../projects/en-US'
+import projectsJson from '../projects'
 import { useTranslation } from 'react-i18next'
 
 export function Projects() {
@@ -9,13 +8,26 @@ export function Projects() {
 
   let projects = [] as ProjectType[]
 
-  if (i18n.language === 'en-US') {
-    projects = enUSProjects
-  }
+  projects = projectsJson.map((projectI18n) => {
+    let description = '' as string | undefined
+    let technologies = '' as string | undefined
 
-  if (i18n.language === 'pt-BR') {
-    projects = ptBRProjects
-  }
+    if (i18n.language === 'pt-BR') {
+      description = projectI18n.ptBR.description
+      technologies = projectI18n.ptBR.technologies
+    }
+
+    if (i18n.language === 'en-US') {
+      description = projectI18n.enUS.description
+      technologies = projectI18n.enUS.technologies
+    }
+
+    return {
+      description,
+      technologies,
+      ...projectI18n,
+    }
+  })
 
   return (
     <section className="bg-neutral-300 pt-16 sm:pt-20" id="projects">
