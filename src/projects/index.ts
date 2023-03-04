@@ -44,9 +44,9 @@ const projects = [
     },
     ptBR: {
       description:
-        'Desde ontem a noite o módulo de recursão paralela causou o bug de compilação multi-plataforma de forma asincrona.',
+        'Um website institucional e sistema administrativo completo. Com páginas estáticas, páginas dinâmicas e formulários de contato.',
       technologies:
-        'Nesse pull request, a compilação final do programa deletou todas as entradas do nosso servidor de DNS.',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageToyoserra,
     url: 'https://www.toyoserra.com.br/',
@@ -60,9 +60,9 @@ const projects = [
     },
     ptBR: {
       description:
-        'Dado o fluxo de dados atual, um erro não identificado causou a race condition do carregamento de JSON delimitado por linhas',
+        'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
       technologies:
-        'Nesse pull request, o deploy automatizado no Heroku causou o bug de uma compilação com tempo acima da media.',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageConteco,
     url: 'https://contecoimobiliaria.com.br/',
@@ -76,9 +76,9 @@ const projects = [
     },
     ptBR: {
       description:
-        'Com este commit, um erro não identificado deletou todas as entradas de estados estáticos nos componentes da UI.',
+        'Um website e sistema administrativo completo para uma metalurgica. Com páginas estáticas e dinâmicas, uma pesquisa por produtos cadastrados a partir de suas características e integração com sistemas externos de clientes.',
       technologies:
-        'Dado o fluxo de dados atual, a compilação final do programa deletou todas as entradas do polimorfismo aplicado nas classes.',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas. ',
     },
     image: imageUniaoMundial,
     url: 'https://www.uniaomundial.com.br/',
@@ -91,8 +91,10 @@ const projects = [
       technologies: '',
     },
     ptBR: {
-      description: '',
-      technologies: '',
+      description:
+        'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
+      technologies:
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas. ',
     },
     image: imageValesca,
     url: 'https://www.valescamarotti.com.br/',
@@ -105,8 +107,10 @@ const projects = [
       technologies: '',
     },
     ptBR: {
-      description: '',
-      technologies: '',
+      description:
+        'Um website e sistema administrativo para carros seminovos. As informações dos automóveis podem ser cadastrados pelo sistema administrativo de forma manual ou recebidos através de requisições API feitas a um sistema externo. O website possuiu uma busca e um formulário de contato. ',
+      technologies:
+        'Para a construção utilizamos Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas. ',
     },
     image: imageSeminovos,
     url: 'http://seminovos.toyoserra.com.br/',
@@ -119,8 +123,10 @@ const projects = [
       technologies: '',
     },
     ptBR: {
-      description: '',
-      technologies: '',
+      description:
+        'Um website e sistema administrativo para um clube. O website apresenta várias páginas estáticas, formulários de contato e páginas com informações dinâmicas que são cadastradas pelo sistema administrativo.',
+      technologies:
+        'Para a construção utilizamos Laravel e Bootstrap. Nós recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual do site. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageNFCC,
     url: 'https://www.nfcc.com.br/',
@@ -133,8 +139,10 @@ const projects = [
       technologies: '',
     },
     ptBR: {
-      description: '',
-      technologies: '',
+      description:
+        'Um sistema ERP completo onde eu trabalhei especificadamente na parte de criação de postagens nas redes sociais e na obtenção de permissões para fazer tal ação. ',
+      technologies:
+        'O sistema foi construído utilizando Laravel, Bootstrap e VueJS. ',
     },
     image: imageCubo,
   },
@@ -146,8 +154,10 @@ const projects = [
       technologies: '',
     },
     ptBR: {
-      description: '',
-      technologies: '',
+      description:
+        'Uma aplicação web que dava suporte ao evento Fator X 2021. Os usuários podiam fazer login com suas contas e ter acesso a um feed de notícias, Links para o evento e download de material.',
+      technologies:
+        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS',
     },
     image: imageFatorX,
   },
