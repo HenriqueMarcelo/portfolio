@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { DropdownLanguage } from '../components/DropdownLanguage'
 import { MenuContext } from '../contexts/MenuContext'
 import { useTranslation } from 'react-i18next'
+import logo from '../assets/logo.svg'
 
 export function Header() {
   const { t } = useTranslation()
@@ -16,9 +17,7 @@ export function Header() {
     <header className="bg-neutral-900 text-white py-8 md:py-10">
       <div className="container mx-auto px-8">
         <div className="flex justify-between items-center">
-          <div className="text-6xl text-orange-400 font-logo select-none">
-            ک
-          </div>
+          <img src={logo} alt="" />
           <nav className="gap-14 hidden md:flex">
             <a
               className="hover:text-orange-300 transition-all"
