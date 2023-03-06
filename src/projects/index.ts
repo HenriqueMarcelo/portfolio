@@ -29,6 +29,7 @@ export interface ProjectI18nType {
     description?: string
     technologies?: string
   }
+  category: 'laravel' | 'react' | 'vue' | 'other'
   image: string
   github?: string
   url?: string
@@ -50,6 +51,7 @@ const projects = [
     },
     image: imageToyoserra,
     url: 'https://www.toyoserra.com.br/',
+    category: 'laravel',
   },
   {
     id: 2,
@@ -66,6 +68,7 @@ const projects = [
     },
     image: imageConteco,
     url: 'https://contecoimobiliaria.com.br/',
+    category: 'laravel',
   },
   {
     id: 3,
@@ -82,6 +85,7 @@ const projects = [
     },
     image: imageUniaoMundial,
     url: 'https://www.uniaomundial.com.br/',
+    category: 'laravel',
   },
   {
     id: 4,
@@ -98,6 +102,7 @@ const projects = [
     },
     image: imageValesca,
     url: 'https://www.valescamarotti.com.br/',
+    category: 'laravel',
   },
   {
     id: 5,
@@ -114,6 +119,7 @@ const projects = [
     },
     image: imageSeminovos,
     url: 'http://seminovos.toyoserra.com.br/',
+    category: 'laravel',
   },
   {
     id: 6,
@@ -130,6 +136,7 @@ const projects = [
     },
     image: imageNFCC,
     url: 'https://www.nfcc.com.br/',
+    category: 'laravel',
   },
   {
     id: 7,
@@ -145,6 +152,7 @@ const projects = [
         'O sistema foi construído utilizando Laravel, Bootstrap e VueJS. ',
     },
     image: imageCubo,
+    category: 'laravel',
   },
   {
     id: 8,
@@ -160,6 +168,7 @@ const projects = [
         'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS',
     },
     image: imageFatorX,
+    category: 'react',
   },
   {
     id: 9,
@@ -176,6 +185,7 @@ const projects = [
     image: imageColors,
     github: 'https://github.com/HenriqueMarcelo/color-wallpaper',
     url: 'https://github.com/HenriqueMarcelo/color-wallpaper#example-images',
+    category: 'other',
   },
   {
     id: 10,
@@ -193,6 +203,7 @@ const projects = [
     image: imageVocabPlusPlus,
     url: 'https://kursi.com.br/vocab-plus-plus/',
     github: 'https://github.com/HenriqueMarcelo/vocab-plus-plus',
+    category: 'other',
   },
   {
     id: 11,
@@ -210,6 +221,7 @@ const projects = [
     image: imageIgniteFeed,
     url: 'https://henriquemarcelo.github.io/ignite-feed/',
     github: 'https://github.com/HenriqueMarcelo/ignite-feed',
+    category: 'react',
   },
   {
     id: 12,
@@ -227,9 +239,10 @@ const projects = [
     image: imageTodoList,
     url: 'https://henriquemarcelo.github.io/to-do-list/',
     github: 'https://github.com/HenriqueMarcelo/to-do-list',
+    category: 'react',
   },
   {
-    id: 12,
+    id: 21,
     title: 'Ignite Timer',
     enUS: {
       description: '',
@@ -244,9 +257,10 @@ const projects = [
     image: imageIgniteTimer,
     url: 'https://henriquemarcelo.github.io/ignite-timer/#/',
     github: 'https://github.com/HenriqueMarcelo/ignite-timer',
+    category: 'react',
   },
   {
-    id: 12,
+    id: 20,
     title: 'DT Money',
     enUS: {
       description: '',
@@ -260,6 +274,7 @@ const projects = [
     },
     image: imageDTMoney,
     github: 'https://henriquemarcelo.github.io/dt-money/',
+    category: 'react',
   },
   {
     id: 13,
@@ -277,6 +292,7 @@ const projects = [
     image: imageCoffeeDelivery,
     github: 'https://github.com/HenriqueMarcelo/coffee-delivery',
     url: 'https://coffee-delivery.kursi.com.br/',
+    category: 'react',
   },
   {
     id: 14,
@@ -294,6 +310,7 @@ const projects = [
     image: imageGithubBlog,
     github: 'https://github.com/HenriqueMarcelo/github-blog',
     url: 'https://github-blog.kursi.com.br/',
+    category: 'react',
   },
   {
     id: 15,
@@ -311,6 +328,7 @@ const projects = [
     image: imageIgniteShop,
     github: 'https://github.com/HenriqueMarcelo/ignite-shop',
     url: 'https://ignite-shop-gilt.vercel.app/',
+    category: 'react',
   },
   {
     id: 16,
@@ -328,6 +346,7 @@ const projects = [
     image: imageIgniteCall,
     github: 'https://github.com/HenriqueMarcelo/ignite-call',
     url: 'https://ignite-call-alpha.vercel.app/',
+    category: 'react',
   },
 ] as ProjectI18nType[]
 

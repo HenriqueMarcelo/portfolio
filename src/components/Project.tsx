@@ -8,6 +8,7 @@ export interface ProjectType {
   image: string
   github?: string
   url?: string
+  category: 'laravel' | 'react' | 'vue' | 'other'
 }
 
 interface ProjectProps {
@@ -75,7 +76,7 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
             <img
               src={project.image}
               alt=""
-              className="ml-auto shadow-2xl shadow-neutral-500"
+              className="ml-auto shadow-2xl shadow-neutral-500 w-full"
             />
           </div>
         )}
