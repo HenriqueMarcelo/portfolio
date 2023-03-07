@@ -22,23 +22,29 @@ export function Presentantion() {
                 <h2 className="text-4xl lg:text-6xl">{t('title')}</h2>
                 <hr className="h-1 w-32 my-4 bg-orange-600 border-0 mr-0 md:ml-auto"></hr>
                 <div className="flex">
-                  <p className="leading-7">
-                    {t('description')}
+                  <div className="leading-7">
+                    <p className="mb-4">{t('description1')}</p>
+                    <p className="mb-4">{t('description2')}</p>
+                    <p className="mb-4">{t('description3')}</p>
                     <span className="flex gap-4 justify-end mt-8">
                       <a
-                        href=""
+                        href="https://www.linkedin.com/in/marcelo-henrique-fonseca/"
                         className="text-orange-600 font-bold text-lg hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         Linkedin
                       </a>
                       <a
-                        href=""
+                        href="https://github.com/HenriqueMarcelo"
                         className="text-orange-600 font-bold text-lg hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         Github
                       </a>
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

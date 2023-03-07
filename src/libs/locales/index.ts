@@ -11,7 +11,9 @@ export interface AppTranslationProps extends ResourceLanguage {
 
     // Presentation
     title: string
-    description: string
+    description1: string
+    description2: string
+    description3: string
 
     // Project
     technologiesUsed: string
