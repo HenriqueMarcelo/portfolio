@@ -64,7 +64,7 @@ const projects = [
       description:
         'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
       technologies:
-        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageConteco,
     url: 'https://contecoimobiliaria.com.br/',
@@ -79,9 +79,9 @@ const projects = [
     },
     ptBR: {
       description:
-        'Um website e sistema administrativo completo para uma metalurgica. Com páginas estáticas e dinâmicas, uma pesquisa por produtos cadastrados a partir de suas características e integração com sistemas externos de clientes.',
+        'Um website e sistema administrativo completo para uma metalúrgica. Com páginas estáticas e dinâmicas, uma pesquisa por produtos cadastrados a partir de suas características e integração com sistemas externos de clientes.',
       technologies:
-        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas. ',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageUniaoMundial,
     url: 'https://www.uniaomundial.com.br/',
@@ -98,7 +98,7 @@ const projects = [
       description:
         'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
       technologies:
-        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas. ',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageValesca,
     url: 'https://www.valescamarotti.com.br/',
@@ -113,9 +113,9 @@ const projects = [
     },
     ptBR: {
       description:
-        'Um website e sistema administrativo para carros seminovos. As informações dos automóveis podem ser cadastrados pelo sistema administrativo de forma manual ou recebidos através de requisições API feitas a um sistema externo. O website possuiu uma busca e um formulário de contato. ',
+        'Um website e sistema administrativo um vendedor de carros seminovos. As informações dos automóveis podem ser cadastrados pelo sistema administrativo de forma manual ou recebidos através de requisições API feitas a um sistema externo. O website possui uma busca e um formulário de contato.',
       technologies:
-        'Para a construção utilizamos Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas. ',
+        'Para a construção utilizamos Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageSeminovos,
     url: 'http://seminovos.toyoserra.com.br/',
@@ -147,13 +147,14 @@ const projects = [
     },
     ptBR: {
       description:
-        'Um sistema ERP completo onde eu trabalhei especificadamente na parte de criação de postagens nas redes sociais e na obtenção de permissões para fazer tal ação. ',
+        'Um sistema ERP completo onde eu trabalhei especificamente na parte de criação de postagens nas redes sociais e na obtenção de permissões para fazer tal ação.',
       technologies:
-        'O sistema foi construído utilizando Laravel, Bootstrap e VueJS. ',
+        'O sistema foi construído utilizando Laravel, Bootstrap e VueJS.',
     },
     image: imageCubo,
     category: 'laravel',
   },
+
   {
     id: 8,
     title: 'Fator X Live',
@@ -163,13 +164,14 @@ const projects = [
     },
     ptBR: {
       description:
-        'Uma aplicação web que dava suporte ao evento Fator X 2021. Os usuários podiam fazer login com suas contas e ter acesso a um feed de notícias, Links para o evento e download de material.',
+        'Uma aplicação web e sistema administrativo que dava suporte ao evento Fator X 2021. Os usuários faziam login com suas contas e tinham acesso a um feed de notícias, links para o evento e download de material.',
       technologies:
-        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS',
+        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS.',
     },
     image: imageFatorX,
     category: 'react',
   },
+
   {
     id: 9,
     title: 'Colors',
@@ -179,7 +181,7 @@ const projects = [
     },
     ptBR: {
       description:
-        'O projeto Colors é uma coleção de imagens de todas as cores disponíveis no CSS. Ele foi criado para criar wallpapers artísticos e simplistas. Ele foi criado utilizando curiosamente HTML e JavaScript. As imagens eram geradas dentro de uma tag <canvas> e o arquivo .png final foi criado simplesmente fazendo o download da imagem gerada. ',
+        'O projeto Colors é uma coleção de imagens de todas as cores disponíveis no CSS. Ele foi criado para criar wallpapers artísticos e simplistas. Ele foi criado utilizando HTML e JavaScript. As imagens eram geradas dentro de uma tag <canvas> e o arquivo .png final foi criado simplesmente fazendo o download da imagem gerada.',
       technologies: 'Html, CSS e JavaScript',
     },
     image: imageColors,
@@ -198,13 +200,14 @@ const projects = [
       description:
         'O Vocab++ é um projeto que desenvolvi para auxiliar no aprendizado de vocabulário de línguas estrangeiras. Ele foi construído para que eu pudesse colocar em prática conhecimentos sobre Vue3 e ci/cd com GitHub Actions.',
       technologies:
-        'Para a construção do projeto, foram utilizadas tecnologias como: Vue3, SASS, Vite, ESLint, Github Actions',
+        'Para a construção do projeto, foram utilizadas tecnologias como: Vue3, Vite, ESLint, Github Actions.',
     },
     image: imageVocabPlusPlus,
     url: 'https://kursi.com.br/vocab-plus-plus/',
     github: 'https://github.com/HenriqueMarcelo/vocab-plus-plus',
     category: 'other',
   },
+
   {
     id: 11,
     title: 'Ignite Feed',
@@ -214,9 +217,9 @@ const projects = [
     },
     ptBR: {
       description:
-        'O Ignnite Feed é um aplicativo web que simula o funcionamento de uma interface gráfica de um feed de uma rede social. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de aprender sobre React, Typescript e manipulação de datas.',
+        'O Ignite Feed é um aplicativo web que simula o funcionamento de uma interface gráfica de um feed de uma rede social. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de aprender sobre React, Typescript e manipulação de datas.',
       technologies:
-        'Para a construção do projeto, foram utilizadas tecnologias como: React, Typescript, DateFNS, Faker e ESLint',
+        'Para a construção do projeto, foram utilizadas tecnologias como: React, Typescript, DateFNS, Faker e ESLint.',
     },
     image: imageIgniteFeed,
     url: 'https://henriquemarcelo.github.io/ignite-feed/',
@@ -225,14 +228,14 @@ const projects = [
   },
   {
     id: 12,
-    title: 'Todo List',
+    title: 'ToDo List',
     enUS: {
       description: '',
       technologies: '',
     },
     ptBR: {
       description:
-        'O To Do List é um aplicativo web que funciona como uma lista de tarefas. Com ele é possível criar tarefas, marcar como concluídas e remover as tarefas. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de ensinar os conceitos básicos do React, Typescript e manipulação de formulários.',
+        'O ToDo List é um aplicativo web que funciona como uma lista de tarefas. Com ele é possível criar tarefas, marcar como concluídas e remover as tarefas. O projeto foi desenvolvido durante o curso Ignite da Rocketseat, com o objetivo de ensinar os conceitos básicos do React, Typescript e manipulação de formulários.',
       technologies:
         'Para a construção do projeto, foram utilizadas React e Typescript.',
     },
@@ -252,7 +255,7 @@ const projects = [
       description:
         'Ignite Timer é um projeto de um timer de foco construído para ajudar as pessoas a gerenciar seu tempo e aumentar sua produtividade. Esse projeto foi criado com o objetivo de colocar em prática os conceitos de React, TypeScript e gerenciamento de estado com Context API, aprendidos durante o curso Ignite da Rocketseat.',
       technologies:
-        'Para a construção do projeto, foram utilizadas tecnologias como React, TypeScript e Context API. Além disso foi utilizado bibliotecas como styled-components, react-hook-form, zod, react-router-dom, entre outras.',
+        'Para a construção do projeto, foram utilizadas tecnologias como React, TypeScript e Context API. Além disso, foram utilizadas bibliotecas como styled-components, react-hook-form, zod, react-router-dom, entre outras.',
     },
     image: imageIgniteTimer,
     url: 'https://henriquemarcelo.github.io/ignite-timer/#/',
@@ -303,9 +306,9 @@ const projects = [
     },
     ptBR: {
       description:
-        "O projeto Github Blog é uma aplicação web que permite aos usuários criarem e gerenciarem seus próprios blogs diretamente pelo Github. Ele foi desenvolvido como um desafio do curso Ignite da Rocketseat com o objetivo de colocarmos em práticas conceitos como: Acesso a API's, criação de aplicação do tipo SPA, leitura e exibição de Markdown, criação de componentes estilizados.",
+        "O projeto Github Blog é uma aplicação web que permite aos usuários criarem e gerenciarem seus próprios blogs diretamente pelo Github. Ele foi desenvolvido como um desafio do curso Ignite da Rocketseat com o objetivo de colocarmos em práticas conceitos como: Acesso a API's, criação de aplicação SPA, leitura e exibição de Markdown e criação de componentes estilizados.",
       technologies:
-        'Para a construção do projeto, foram utilizadas tecnologias como React, Typescript, styled-components, Axios e a API do Github para integração com o Github Issues. Além disso, foram utilizadas bibliotecas como react-markdown, date-fns e react-hook-form. ',
+        'Para a construção do projeto, foram utilizadas tecnologias como React, Typescript, styled-components, Axios e a API do Github para integração com o Github Issues. Além disso, foram utilizadas bibliotecas como react-markdown, date-fns e react-hook-form.',
     },
     image: imageGithubBlog,
     github: 'https://github.com/HenriqueMarcelo/github-blog',
@@ -341,7 +344,7 @@ const projects = [
       description:
         'Ignite Call" é um projeto desenvolvido durante o curso Ignite da Rocketseat que tem como objetivo oferecer um sistema de agendamentos online integrado ao Google Agenda. Com ele, é possível cadastrar dias e horários disponíveis para agendamento e os clientes podem visualizar os horários disponíveis em um calendário e fazer o agendamento diretamente pelo sistema.',
       technologies:
-        'Para a construção do projeto, foram utilizadas diversas tecnologias, como Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios e MySQL, entre outras. Também foi necessário realizar o deploy do banco de dados na plataforma Planetscale e da aplicação no Vercel. O projeto foi uma oportunidade de aprender e aplicar conceitos importantes como integração de sistemas, manipulação de cookies, customização de componentes, querys SQL e otimizações de SEO.',
+        'Para a construção do projeto, foram utilizadas diversas tecnologias, como Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios e MySQL, entre outras. Também foi realizado o deploy do banco de dados para a plataforma Planetscale e o deploy da aplicação para o  Vercel. O projeto foi uma oportunidade de aprender e aplicar conceitos importantes como integração de sistemas, manipulação de cookies, customização de componentes, querys SQL e otimizações de SEO.',
     },
     image: imageIgniteCall,
     github: 'https://github.com/HenriqueMarcelo/ignite-call',
