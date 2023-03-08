@@ -8,11 +8,11 @@ export default {
 
     title: 'Who am I?',
     description1:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros nibh, convallis molestie eleifend suscipit, iaculis at turpis. Maecenas volutpat venenatis velit eu finibus. Praesent enim neque, ultrices non imperdiet in, sagittis a mi. Nullam non ex vitae est molestie luctus. Morbi vel cursus ex, nec sodales odio. Integer tempor est vel lorem finibus, nec ullamcorper diam ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+      "My name is Marcelo Henrique and I'm a web developer passionate about technology and innovation. My journey into the programming world started over 7 years ago, when I decided I wanted to build amazing things and impact people's lives through technology.",
     description2:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros nibh, convallis molestie eleifend suscipit, iaculis at turpis. Maecenas volutpat venenatis velit eu finibus. Praesent enim neque, ultrices non imperdiet in, sagittis a mi. Nullam non ex vitae est molestie luctus. Morbi vel cursus ex, nec sodales odio. Integer tempor est vel lorem finibus, nec ullamcorper diam ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+      "Over the years, I've acquired skills in several programming languages and technologies, such as HTML, CSS, JavaScript, PHP, Laravel, Node.js, among others. But currently I am focused on improving my skills with ReactJS and NextJS.",
     description3:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros nibh, convallis molestie eleifend suscipit, iaculis at turpis. Maecenas volutpat venenatis velit eu finibus. Praesent enim neque, ultrices non imperdiet in, sagittis a mi. Nullam non ex vitae est molestie luctus. Morbi vel cursus ex, nec sodales odio. Integer tempor est vel lorem finibus, nec ullamcorper diam ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+      "I invite you to click on the links below to access my LinkedIn profile and GitHub, where you can find more information about my career and projects. Also, be sure to scroll down to check out some of the projects I've worked on.",
 
     technologiesUsed: 'Technologies Used',
 

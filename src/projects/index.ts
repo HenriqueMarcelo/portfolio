@@ -40,12 +40,14 @@ const projects = [
     id: 10,
     title: 'Ignite Call',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "Ignite Call is a project developed during Rocketseat's Ignite course which aims to offer an online appointment system integrated with Google Calendar. With it, it is possible to register days and times available for scheduling and clients can view the available times in a calendar and schedule directly through the system.",
+      technologies:
+        'To build the project, several technologies were used, such as Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios and MySQL, among others. We also deployed the database to the Planetscale platform and deployed the application to Vercel. The project was an opportunity to learn and apply important concepts such as system integration, cookie handling, component customization, SQL queries and SEO optimizations.',
     },
     ptBR: {
       description:
-        'Ignite Call" é um projeto desenvolvido durante o curso Ignite da Rocketseat que tem como objetivo oferecer um sistema de agendamentos online integrado ao Google Agenda. Com ele, é possível cadastrar dias e horários disponíveis para agendamento e os clientes podem visualizar os horários disponíveis em um calendário e fazer o agendamento diretamente pelo sistema.',
+        'Ignite Call é um projeto desenvolvido durante o curso Ignite da Rocketseat que tem como objetivo oferecer um sistema de agendamentos online integrado ao Google Agenda. Com ele, é possível cadastrar dias e horários disponíveis para agendamento e os clientes podem visualizar os horários disponíveis em um calendário e fazer o agendamento diretamente pelo sistema.',
       technologies:
         'Para a construção do projeto, foram utilizadas diversas tecnologias, como Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios e MySQL, entre outras. Também foi realizado o deploy do banco de dados para a plataforma Planetscale e o deploy da aplicação para o  Vercel. O projeto foi uma oportunidade de aprender e aplicar conceitos importantes como integração de sistemas, manipulação de cookies, customização de componentes, querys SQL e otimizações de SEO.',
     },
@@ -58,8 +60,10 @@ const projects = [
     id: 11,
     title: 'Ignite Shop',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "Ignite Shop is a project developed during Rocketseat's Ignite course. It is an online store that allows the viewing and purchasing of products. The goal of the project is to teach the students to build a complete and functional Next.JS application using modern web development technologies.",
+      technologies:
+        "To build the project, technologies like Next.js, ReactJS, Stitches, Typescript and integration with Stripe's API were used. Besides this, libraries such as axios, keen-slider, use-shopping-cart were used. With these technologies it was possible to create an application with excellent performance and high code quality.",
     },
     ptBR: {
       description:
@@ -76,8 +80,10 @@ const projects = [
     id: 12,
     title: 'Github Blog',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "The Github Blog project is a web application that allows users to create and manage their own blogs directly from Github. It was developed as a challenge for Rocketseat's Ignite course with the goal of putting into practice concepts such as: API access, SPA application creation, reading and displaying Markdown and creation of styled components.",
+      technologies:
+        'To build the project we used technologies such as React, Typescript, styled-components, Axios and the Github API for integration with Github Issues. Additionally, libraries such as react-markdown, date-fns and react-hook-form were used.',
     },
     ptBR: {
       description:
@@ -94,8 +100,10 @@ const projects = [
     id: 13,
     title: 'Coffee Delivery',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "Coffee Delivery is a project of a graphical interface for an online coffee shop. It is not integrated with a back-end, but was created to simulate the front-end of a real application. It was created as a challenge in Rocketseat's Ignite course with the objective of putting into practice skills learned in the course, such as the creation of a React application, stylized components, useContext, SPA, forms, Typescript, and much more.",
+      technologies:
+        'To build the Coffee Delivery, we used technologies such as ReactJS, TypeScript, styled-components and libraries such as: React Hook Form, React Router, Styled Components, Phosphor React and more.',
     },
     ptBR: {
       description:
@@ -112,8 +120,10 @@ const projects = [
     id: 14,
     title: 'DT Money',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'DT Money is a personal finance project created with the objective of helping the management of expenses and income. The project was developed during the Rocketseat Ignite course, with the intention of applying the concepts of React and TypeScript in practice, as well as improving the knowledge of state manipulation, API usage and component styling.',
+      technologies:
+        'To build DT Money, technologies such as React, TypeScript and Styled Components were used. In addition, libraries such as Axios, React Hook Form, Zod and Radix were used. The project also uses the React context concept to manage the global state of the application.',
     },
     ptBR: {
       description:
@@ -129,8 +139,10 @@ const projects = [
     id: 15,
     title: 'Ignite Timer',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "Ignite Timer is a focus timer project built to help people manage their time and increase their productivity. This project was created with the goal of putting into practice the concepts of React, TypeScript and state management with Context API, learned during Rocketseat's Ignite course.",
+      technologies:
+        'To build the project, technologies such as React, TypeScript and Context API were used. In addition, libraries such as styled-components, react-hook-form, zod, react-router-dom, and others were used.',
     },
     ptBR: {
       description:
@@ -147,8 +159,9 @@ const projects = [
     id: 16,
     title: 'ToDo List',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "The ToDo List is a web application that works like a task list. With it you can create tasks, mark as done and remove tasks. The project was developed during Rocketseat's Ignite course, with the goal of teaching the basics of React, Typescript and form manipulation.",
+      technologies: 'React and Typescript were used to build the project.',
     },
     ptBR: {
       description:
@@ -165,8 +178,10 @@ const projects = [
     id: 17,
     title: 'Ignite Feed',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        "The Ignite Feed is a web application that simulates the operation of a graphical interface of a social network feed. The project was developed during Rocketseat's Ignite course, with the goal of learning about React, Typescript and date manipulation.",
+      technologies:
+        'To build the project, technologies like: React, Typescript, DateFNS, Faker and ESLint were used.',
     },
     ptBR: {
       description:
@@ -183,8 +198,10 @@ const projects = [
     id: 18,
     title: 'Fator X Live',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A web application and administrative system that supported the Fator X 2021 event. Users logged in with their accounts and had access to a news feed, links to the event, and material downloads.',
+      technologies:
+        'React, TypeScript, Redux, Bootstrap and SASS were used to build the application.',
     },
     ptBR: {
       description:
@@ -200,8 +217,10 @@ const projects = [
     id: 20,
     title: 'Toyoserra',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A complete institutional website and administrative system. With static pages, dynamic pages and contact forms.',
+      technologies:
+        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed our visual identity. This way the development and especially the maintenance are greatly simplified.',
     },
     ptBR: {
       description:
@@ -217,8 +236,10 @@ const projects = [
     id: 21,
     title: 'Conteco',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A complete website and administrative system for a real estate company. Where, in the administrative system, the available properties that will be displayed on the website are registered. The website also has searches and listings based on characteristics so that customers can find what they are looking for more easily.',
+      technologies:
+        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
     },
     ptBR: {
       description:
@@ -234,8 +255,10 @@ const projects = [
     id: 22,
     title: 'União Mundial',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A complete website and administrative system for a metallurgical company. With static and dynamic pages, a search for registered products based on their characteristics and integration with external customer systems.',
+      technologies:
+        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its standard classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
     },
     ptBR: {
       description:
@@ -251,8 +274,10 @@ const projects = [
     id: 23,
     title: 'Valesca Marotti',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A complete website and administrative system for a real estate company. Where, in the administrative system, the available properties that will be shown in the website are registered. The website also has searches and listings based on characteristics so that clients can find what they are looking for more easily.',
+      technologies:
+        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
     },
     ptBR: {
       description:
@@ -268,8 +293,10 @@ const projects = [
     id: 24,
     title: 'Toyoserra Seminovos',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A website and administrative system for a used-car salesman. The information about the cars can be registered by the administrative system manually or received through API requests made to an external system. The website has a search and contact form.',
+      technologies:
+        'For the construction we used Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
     },
     ptBR: {
       description:
@@ -285,8 +312,10 @@ const projects = [
     id: 25,
     title: 'Nova Friburgo Country Clube',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A website and administrative system for a club. The website has several static pages, contact forms and dynamic information pages that are registered by the administrative system.',
+      technologies:
+        'For the construction we used Laravel and Bootstrap. We recompiled Bootstrap so that its default classes followed the visual identity of the site. This way the development and especially the maintenance are very simplified.',
     },
     ptBR: {
       description:
@@ -302,8 +331,9 @@ const projects = [
     id: 26,
     title: 'CuboUP',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'A complete ERP system where I worked specifically on the part of creating posts in social networks and obtaining permissions to do so.',
+      technologies: 'The system was built using Laravel, Bootstrap and VueJS.',
     },
     ptBR: {
       description:
@@ -319,8 +349,10 @@ const projects = [
     id: 30,
     title: 'Vocab++',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'Vocab++ is a project I developed to help learning foreign language vocabulary. It was built so that I could put into practice knowledge about Vue3 and ci/cd with GitHub Actions.',
+      technologies:
+        'To build the project, I used technologies such as: Vue3, Vite, ESLint, Github Actions.',
     },
     ptBR: {
       description:
@@ -337,8 +369,9 @@ const projects = [
     id: 31,
     title: 'Colors',
     enUS: {
-      description: '',
-      technologies: '',
+      description:
+        'The Colors project is a collection of images of all the colors available in CSS. It was created to create artistic and simplistic wallpapers. It was created using HTML and JavaScript. The images were generated within a <canvas> tag and the final .png file was created by simply downloading the generated image.',
+      technologies: 'Html, CSS and JavaScript',
     },
     ptBR: {
       description:
