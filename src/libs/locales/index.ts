@@ -4,6 +4,8 @@ import { ResourceLanguage } from 'i18next'
 
 export interface AppTranslationProps extends ResourceLanguage {
   translation: {
+    pageTitle: string
+
     // Header
     presentation: string
     projects: string

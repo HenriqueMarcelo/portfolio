@@ -2,6 +2,8 @@ import { AppTranslationProps } from '.'
 
 export default {
   translation: {
+    pageTitle: 'Portfolio | Marcelo Henrique',
+
     presentation: 'Presentation',
     projects: 'Projects',
     currentLanguage: 'English',
