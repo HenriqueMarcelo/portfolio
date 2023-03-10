@@ -10,7 +10,7 @@ function Home() {
 
   useEffect(() => {
     document.title = t('pageTitle')
-  }, [])
+  }, [t])
 
   return (
     <div>
