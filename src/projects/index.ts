@@ -16,6 +16,7 @@ import imageIgniteFeed from '../assets/projects/ignite_feed.png'
 import imageIgniteShop from '../assets/projects/ignite_shop.png'
 import imageIgniteTimer from '../assets/projects/ignite_timer.png'
 import imageIgniteCall from '../assets/projects/ignite_call.png'
+import imageIgniteDesignSystem from '../assets/projects/ignite_design_system.png'
 import imageTodoList from '../assets/projects/todo_list.png'
 
 export interface ProjectI18nType {
@@ -43,17 +44,37 @@ const projects = [
       description:
         "Ignite Call is a project developed during Rocketseat's Ignite course which aims to offer an online appointment system integrated with Google Calendar. With it, it is possible to register days and times available for scheduling and clients can view the available times in a calendar and schedule directly through the system.",
       technologies:
-        'To build the project, several technologies were used, such as Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios and MySQL, among others. We also deployed the database to the Planetscale platform and deployed the application to Vercel. The project was an opportunity to learn and apply important concepts such as system integration, cookie handling, component customization, SQL queries and SEO optimizations.',
+        'To build the project, several technologies were used, such as Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios and MySQL, among others. In addition, we use the Design System built previously (as you can see in the project below). We also deployed the database to the Planetscale platform and deployed the application to Vercel. The project was an opportunity to learn and apply important concepts such as system integration, cookie handling, component customization, SQL queries and SEO optimizations.',
     },
     ptBR: {
       description:
         'Ignite Call é um projeto desenvolvido durante o curso Ignite da Rocketseat que tem como objetivo oferecer um sistema de agendamentos online integrado ao Google Agenda. Com ele, é possível cadastrar dias e horários disponíveis para agendamento e os clientes podem visualizar os horários disponíveis em um calendário e fazer o agendamento diretamente pelo sistema.',
       technologies:
-        'Para a construção do projeto, foram utilizadas diversas tecnologias, como Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios e MySQL, entre outras. Também foi realizado o deploy do banco de dados para a plataforma Planetscale e o deploy da aplicação para o  Vercel. O projeto foi uma oportunidade de aprender e aplicar conceitos importantes como integração de sistemas, manipulação de cookies, customização de componentes, querys SQL e otimizações de SEO.',
+        'Para a construção do projeto, foram utilizadas diversas tecnologias, como Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios e MySQL, entre outras. Além disso, utilizamos o próprio Design System construído anteriormente (como você pode ver no projeto abaixo). Também foi realizado o deploy do banco de dados para a plataforma Planetscale e o deploy da aplicação para o Vercel. O projeto foi uma oportunidade de aprender e aplicar conceitos importantes como integração de sistemas, manipulação de cookies, customização de componentes, querys SQL e otimizações de SEO.',
     },
     image: imageIgniteCall,
     github: 'https://github.com/HenriqueMarcelo/ignite-call',
     url: 'https://ignite-call-alpha.vercel.app/',
+    category: 'react',
+  },
+  {
+    id: 111,
+    title: 'Ignite Design System',
+    enUS: {
+      description:
+        "Ignite Call is a project developed during Rocketseat's Ignite course which aims to offer an online appointment system integrated with Google Calendar. With it, it is possible to register days and times available for scheduling and clients can view the available times in a calendar and schedule directly through the system.",
+      technologies:
+        'To build the project, several technologies were used, such as Next.js, Prisma, React Hook Form, Zod, Google APIs, Next Auth, Axios and MySQL, among others. We also deployed the database to the Planetscale platform and deployed the application to Vercel. The project was an opportunity to learn and apply important concepts such as system integration, cookie handling, component customization, SQL queries and SEO optimizations.',
+    },
+    ptBR: {
+      description:
+        'O projeto Ignite Design System é um conjunto completo de ferramentas de Design System construído dentro do curso Ignite da Rocketseat. Ele é composto de três pacotes, cada um com sua própria funcionalidade específica. O pacote de tokens exporta valores, cores e outras informações compartilhadas. O pacote de componentes exporta componentes React. Por fim, o pacote de documentação contém uma documentação completa que explica como utilizar e mostra exemplos dos componentes do design system.',
+      technologies:
+        'Na construção do Ignite Design System foram utilizadas diversas tecnologias de ponta, incluindo React, Typescript, Stitches, Phosphor Icons e Radix. Além disso, foram utilizadas ferramentas como turborepo e changesets para gerenciar várias dependências em um único repositório e garantir que cada pacote esteja sincronizado com as versões mais recentes. O projeto também foi enviado para o NPM e Github Pages, utilizando o Github Actions.',
+    },
+    image: imageIgniteDesignSystem,
+    github: 'https://github.com/HenriqueMarcelo/ignite-design-system',
+    url: 'https://henriquemarcelo.github.io/ignite-design-system/',
     category: 'react',
   },
   {
