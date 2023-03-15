@@ -114,7 +114,7 @@ const projects = [
     },
     image: imageGithubBlog,
     github: 'https://github.com/HenriqueMarcelo/github-blog',
-    url: 'https://github-blog.kursi.com.br/',
+    url: 'https://github-blog.marcelohenrique.dev.br/',
     category: 'react',
   },
   {
@@ -134,7 +134,7 @@ const projects = [
     },
     image: imageCoffeeDelivery,
     github: 'https://github.com/HenriqueMarcelo/coffee-delivery',
-    url: 'https://coffee-delivery.kursi.com.br/',
+    url: 'https://coffee-delivery.marcelohenrique.dev.br/',
     category: 'react',
   },
   {

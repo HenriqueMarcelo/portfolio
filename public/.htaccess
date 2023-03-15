@@ -1,0 +1,4 @@
+RewriteEngine On
+<If "req('Host') =~ /kursi.com.br/i">
+    RedirectMatch 301 ^(.*) https://marcelohenrique.dev.br$1
+</If>
