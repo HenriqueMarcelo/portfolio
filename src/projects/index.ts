@@ -9,6 +9,7 @@ import imageFatorX from '../assets/projects/fatorx.png'
 import imageColors from '../assets/projects/colors.png'
 import imageVocabPlusPlus from '../assets/projects/vocab_plus_plus.png'
 
+import imageBookWise from '../assets/projects/book_wise.png'
 import imageGithubBlog from '../assets/projects/blog.png'
 import imageCoffeeDelivery from '../assets/projects/coffee_delivery.png'
 import imageDTMoney from '../assets/projects/dt_money.png'
@@ -37,6 +38,26 @@ export interface ProjectI18nType {
 }
 
 const projects = [
+  {
+    id: 9,
+    title: 'Book Wise',
+    enUS: {
+      description:
+        "Book Wise is a web application developed for users to rate books they have read. Through the platform, it is possible to rate books with grades and leave a comment about the book. In addition, users can also view other users' ratings, see the average rating a book has, and explore books by category or by author or book name.",
+      technologies:
+        "The project was a challenge proposed by Rocketseat's Ignite course and in it I was able to put into practice the knowledge I learned during the course. To build the application I used technologies such as NextJS, Prisma, Radix, Stitches, Next Auth, Next SEO, Typescript, Axios, ESLint, DateFNS, phosphor icons and zod. These technologies and libraries allowed me to build a robust application with a good user experience.",
+    },
+    ptBR: {
+      description:
+        'O Book Wise é uma aplicação web desenvolvida para que os usuários possam fazer avaliações de livros que já leram. Através da plataforma, é possível avaliar livros com notas e ainda deixar um comentário sobre a obra. Além disso, os usuários também podem visualizar as avaliações feitas por outros usuários, ver a média de notas que um livro tem e explorar livros por categorias ou por nome de autor ou livro.',
+      technologies:
+        'O projeto foi um desafio proposto pelo curso Ignite da Rocketseat e nele eu pude colocar em prática diversos conhecimentos que aprendi durante o curso. Para a construção da aplicação, utilizei tecnologias como NextJS, Prisma, Radix, Stitches, Next Auth, Next SEO, Typescript, Axios, ESLint, DateFNS, phosphor icons e zod. Essas tecnologias e bibliotecas me permitiram construir uma aplicação robusta e com uma boa experiência para o usuário.',
+    },
+    image: imageBookWise,
+    github: 'https://github.com/HenriqueMarcelo/book-wise',
+    url: 'https://book-wise-two.vercel.app/',
+    category: 'react',
+  },
   {
     id: 10,
     title: 'Ignite Call',
