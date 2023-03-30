@@ -9,6 +9,7 @@ import imageFatorX from '../assets/projects/fatorx.png'
 import imageColors from '../assets/projects/colors.png'
 import imageVocabPlusPlus from '../assets/projects/vocab_plus_plus.png'
 
+import imagePortfolio from '../assets/projects/portfolio.png'
 import imageBookWise from '../assets/projects/book_wise.png'
 import imageGithubBlog from '../assets/projects/blog.png'
 import imageCoffeeDelivery from '../assets/projects/coffee_delivery.png'
@@ -156,6 +157,26 @@ const projects = [
     image: imageCoffeeDelivery,
     github: 'https://github.com/HenriqueMarcelo/coffee-delivery',
     url: 'https://coffee-delivery.marcelohenrique.dev.br/',
+    category: 'react',
+  },
+  {
+    id: 133,
+    title: 'Portfólio',
+    enUS: {
+      description:
+        'My personal portfolio is a site that displays all the projects I have worked on and tells you a little bit about each of them. It was built with the goal of serving as a showcase of my work and to help spread my name as a developer.',
+      technologies:
+        'To build this project I used the React library and relied on Midjourney AI for layout inspiration. In addition, I used other libraries such as Tailwind for design, i18next for internationalization and Radix for component creation. The application allows all texts to be translated into English and Portuguese and it is possible to include other languages easily in the future.',
+    },
+    ptBR: {
+      description:
+        'Meu portfólio pessoal é um site que exibe todos os projetos em que já trabalhei e conta um pouco sobre cada um deles. Ele foi construído com o objetivo de servir como uma vitrine do meu trabalho e ajudar na divulgação do meu nome como desenvolvedor.',
+      technologies:
+        'Para a construção desse projeto, utilizei a biblioteca React e contei com a ajuda da inteligência artificial Midjourney para obter inspirações de layout. Além disso, utilizei outras bibliotecas como o Tailwind para o design, o i18next para a internationalization e o Radix para a criação de componentes. A aplicação permite que todos os textos sejam traduzidos em inglês e português e é possível incluir outros idiomas de forma facilitada no futuro.',
+    },
+    image: imagePortfolio,
+    github: 'https://github.com/HenriqueMarcelo/portfolio',
+    url: '',
     category: 'react',
   },
   {
