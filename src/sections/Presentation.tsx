@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import maroon from '../assets/maroon.png'
+import maroon from '../assets/maroon.jpg'
 import silver from '../assets/silver.png'
 
 export function Presentantion() {
