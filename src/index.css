@@ -34,3 +34,8 @@
     text-align: right;
    }
 }
+
+::selection {
+    color: black;
+    background: #eb944c;
+}
