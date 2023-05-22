@@ -424,7 +424,7 @@ const projects = [
         'Para a construção do projeto, foram utilizadas tecnologias como: Vue3, Vite, ESLint, Github Actions.',
     },
     image: imageVocabPlusPlus,
-    url: 'https://kursi.com.br/vocab-plus-plus/',
+    url: 'https://vocab-plus-plus.marcelohenrique.dev.br/',
     github: 'https://github.com/HenriqueMarcelo/vocab-plus-plus',
     category: 'other',
   },
