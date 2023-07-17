@@ -21,6 +21,9 @@ import imageIgniteCall from '../assets/projects/ignite_call.png'
 import imageIgniteDesignSystem from '../assets/projects/ignite_design_system.png'
 import imageTodoList from '../assets/projects/todo_list.png'
 
+import imageIgniteGym from '../assets/projects/ignite_gym.jpg'
+import imageIgniteTeams from '../assets/projects/ignite_teams.jpg'
+
 export interface ProjectI18nType {
   id: number
   title?: string
@@ -32,7 +35,7 @@ export interface ProjectI18nType {
     description?: string
     technologies?: string
   }
-  category: 'laravel' | 'react' | 'vue' | 'other'
+  category: 'laravel' | 'react' | 'vue' | 'react-native' | 'other'
   image: string
   github?: string
   url?: string
@@ -445,6 +448,44 @@ const projects = [
     github: 'https://github.com/HenriqueMarcelo/color-wallpaper',
     url: 'https://github.com/HenriqueMarcelo/color-wallpaper#example-images',
     category: 'other',
+  },
+  {
+    id: 41,
+    title: 'Ignite Gym',
+    enUS: {
+      description:
+        "Ignite Gym is a mobile app developed as part of RocketSeat's React Native Ignite course. It was created with the aim of offering users a tool to keep track of their training routines. With features such as login, registration, exercise list and activity history, Ignite Gym was an excellent opportunity to learn native development.",
+      technologies:
+        'Among the main tools used are Expo, TypeScript, NativeBase, React Hook Form, Yup, Axios, React Navigation. These technologies allowed me to create a robust, intuitive and highly performing mobile application.',
+    },
+    ptBR: {
+      description:
+        'O Ignite Gym é um aplicativo móvel desenvolvido como parte do curso Ignite de React Native da RocketSeat. Ele foi criado visando oferecer aos usuários uma ferramenta para acompanhar suas rotinas de treinamento. Com recursos como login, cadastro, lista de exercícios e histórico de atividades, o Ignite Gym foi uma excelente oportunidade de aprendizado do desenvolvimento nativo. ',
+      technologies:
+        'Entre as principais ferramentas utilizadas estão o Expo, TypeScript, NativeBase, React Hook Form, Yup, Axios, React Navigation. Essas tecnologias me permitiram criar uma aplicação móvel robusta, intuitiva e com ótima performance.',
+    },
+    image: imageIgniteGym,
+    github: 'https://github.com/HenriqueMarcelo/ignite-gym',
+    category: 'react_native',
+  },
+  {
+    id: 42,
+    title: 'Ignite Teams',
+    enUS: {
+      description:
+        "The Ignite Teams project is an application developed as part of RocketSeat's React Native Ignite course. It aims to facilitate the organization of groups, allowing the creation, deletion and addition of participants in different teams.",
+      technologies:
+        'Built using Expo, TypeScript, Styled Components and React Navigation the project was an opportunity to put into practice basic concepts of React Native.',
+    },
+    ptBR: {
+      description:
+        'O projeto "Ignite Teams" é uma aplicação desenvolvida como parte do curso Ignite de React Native da RocketSeat. Ele tem como objetivo facilitar a organização de grupos, permitindo a criação, exclusão e adição de participantes em diferentes equipes.',
+      technologies:
+        'Construído utilizando Expo, TypeScript, Styled Components e React Navigation o projeto foi uma oportunidade de colocar em prática conceitos básicos do React Native. ',
+    },
+    image: imageIgniteTeams,
+    github: 'https://github.com/HenriqueMarcelo/ignite-teams',
+    category: 'react_native',
   },
 ] as ProjectI18nType[]
 

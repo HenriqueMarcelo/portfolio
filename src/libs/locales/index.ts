@@ -24,6 +24,7 @@ export interface AppTranslationProps extends ResourceLanguage {
     laravel: string
     react: string
     other: string
+    react_native: string
   }
 }
 

@@ -21,5 +21,6 @@ export default {
     laravel: 'Laravel',
     react: 'React',
     other: 'Outros',
+    react_native: 'React Native',
   },
 } as AppTranslationProps
