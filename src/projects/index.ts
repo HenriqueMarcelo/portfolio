@@ -83,6 +83,24 @@ const projects = [
     category: 'react',
   },
   {
+    id: 18,
+    title: 'Fator X Live',
+    enUS: {
+      description:
+        'A web application and administrative system that supported the Fator X 2021 event. Users logged in with their accounts and had access to a news feed, links to the event, and material downloads.',
+      technologies:
+        'React, TypeScript, Redux, Bootstrap and SASS were used to build the application.',
+    },
+    ptBR: {
+      description:
+        'Uma aplicação web e sistema administrativo que dava suporte ao evento Fator X 2021. Os usuários faziam login com suas contas e tinham acesso a um feed de notícias, links para o evento e download de material.',
+      technologies:
+        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS.',
+    },
+    image: imageFatorX,
+    category: 'react',
+  },
+  {
     id: 111,
     title: 'Ignite Design System',
     enUS: {
@@ -260,44 +278,7 @@ const projects = [
     github: 'https://github.com/HenriqueMarcelo/ignite-feed',
     category: 'react',
   },
-  {
-    id: 18,
-    title: 'Fator X Live',
-    enUS: {
-      description:
-        'A web application and administrative system that supported the Fator X 2021 event. Users logged in with their accounts and had access to a news feed, links to the event, and material downloads.',
-      technologies:
-        'React, TypeScript, Redux, Bootstrap and SASS were used to build the application.',
-    },
-    ptBR: {
-      description:
-        'Uma aplicação web e sistema administrativo que dava suporte ao evento Fator X 2021. Os usuários faziam login com suas contas e tinham acesso a um feed de notícias, links para o evento e download de material.',
-      technologies:
-        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS.',
-    },
-    image: imageFatorX,
-    category: 'react',
-  },
 
-  {
-    id: 20,
-    title: 'Toyoserra',
-    enUS: {
-      description:
-        'A complete institutional website and administrative system. With static pages, dynamic pages and contact forms.',
-      technologies:
-        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed our visual identity. This way the development and especially the maintenance are greatly simplified.',
-    },
-    ptBR: {
-      description:
-        'Um website institucional e sistema administrativo completo. Com páginas estáticas, páginas dinâmicas e formulários de contato.',
-      technologies:
-        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
-    },
-    image: imageToyoserra,
-    url: 'https://www.toyoserra.com.br/',
-    category: 'laravel',
-  },
   {
     id: 21,
     title: 'Conteco',
@@ -356,25 +337,6 @@ const projects = [
     category: 'laravel',
   },
   {
-    id: 24,
-    title: 'Toyoserra Seminovos',
-    enUS: {
-      description:
-        'A website and administrative system for a used-car salesman. The information about the cars can be registered by the administrative system manually or received through API requests made to an external system. The website has a search and contact form.',
-      technologies:
-        'For the construction we used Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
-    },
-    ptBR: {
-      description:
-        'Um website e sistema administrativo um vendedor de carros seminovos. As informações dos automóveis podem ser cadastrados pelo sistema administrativo de forma manual ou recebidos através de requisições API feitas a um sistema externo. O website possui uma busca e um formulário de contato.',
-      technologies:
-        'Para a construção utilizamos Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
-    },
-    image: imageSeminovos,
-    url: 'http://seminovos.toyoserra.com.br/',
-    category: 'laravel',
-  },
-  {
     id: 25,
     title: 'Nova Friburgo Country Clube',
     enUS: {
@@ -408,6 +370,44 @@ const projects = [
         'O sistema foi construído utilizando Laravel, Bootstrap e VueJS.',
     },
     image: imageCubo,
+    category: 'laravel',
+  },
+  {
+    id: 20,
+    title: 'Toyoserra',
+    enUS: {
+      description:
+        'A complete institutional website and administrative system. With static pages, dynamic pages and contact forms.',
+      technologies:
+        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed our visual identity. This way the development and especially the maintenance are greatly simplified.',
+    },
+    ptBR: {
+      description:
+        'Um website institucional e sistema administrativo completo. Com páginas estáticas, páginas dinâmicas e formulários de contato.',
+      technologies:
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
+    },
+    image: imageToyoserra,
+    url: 'https://www.toyoserra.com.br/',
+    category: 'laravel',
+  },
+  {
+    id: 24,
+    title: 'Toyoserra Seminovos',
+    enUS: {
+      description:
+        'A website and administrative system for a used-car salesman. The information about the cars can be registered by the administrative system manually or received through API requests made to an external system. The website has a search and contact form.',
+      technologies:
+        'For the construction we used Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
+    },
+    ptBR: {
+      description:
+        'Um website e sistema administrativo um vendedor de carros seminovos. As informações dos automóveis podem ser cadastrados pelo sistema administrativo de forma manual ou recebidos através de requisições API feitas a um sistema externo. O website possui uma busca e um formulário de contato.',
+      technologies:
+        'Para a construção utilizamos Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
+    },
+    image: imageSeminovos,
+    url: 'http://seminovos.toyoserra.com.br/',
     category: 'laravel',
   },
 
