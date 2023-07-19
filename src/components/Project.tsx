@@ -8,7 +8,7 @@ export interface ProjectType {
   image: string
   github?: string
   url?: string
-  category: 'laravel' | 'react' | 'vue' | 'other'
+  category: 'laravel' | 'react' | 'vue' | 'react-native' | 'other'
 }
 
 interface ProjectProps {
