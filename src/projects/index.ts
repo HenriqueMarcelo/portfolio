@@ -43,6 +43,24 @@ export interface ProjectI18nType {
 
 const projects = [
   {
+    id: 8,
+    title: 'Fator X Live',
+    enUS: {
+      description:
+        'A web application and administrative system that supported the Fator X 2021 event. Users logged in with their accounts and had access to a news feed, links to the event, and material downloads.',
+      technologies:
+        'React, TypeScript, Redux, Bootstrap and SASS were used to build the application.',
+    },
+    ptBR: {
+      description:
+        'Uma aplicação web e sistema administrativo que dava suporte ao evento Fator X 2021. Os usuários faziam login com suas contas e tinham acesso a um feed de notícias, links para o evento e download de material.',
+      technologies:
+        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS.',
+    },
+    image: imageFatorX,
+    category: 'react',
+  },
+  {
     id: 9,
     title: 'Book Wise',
     enUS: {
@@ -80,24 +98,6 @@ const projects = [
     image: imageIgniteCall,
     github: 'https://github.com/HenriqueMarcelo/ignite-call',
     url: 'https://ignite-call-alpha.vercel.app/',
-    category: 'react',
-  },
-  {
-    id: 18,
-    title: 'Fator X Live',
-    enUS: {
-      description:
-        'A web application and administrative system that supported the Fator X 2021 event. Users logged in with their accounts and had access to a news feed, links to the event, and material downloads.',
-      technologies:
-        'React, TypeScript, Redux, Bootstrap and SASS were used to build the application.',
-    },
-    ptBR: {
-      description:
-        'Uma aplicação web e sistema administrativo que dava suporte ao evento Fator X 2021. Os usuários faziam login com suas contas e tinham acesso a um feed de notícias, links para o evento e download de material.',
-      technologies:
-        'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS.',
-    },
-    image: imageFatorX,
     category: 'react',
   },
   {
