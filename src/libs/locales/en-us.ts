@@ -17,6 +17,7 @@ export default {
       "I invite you to click on the links below to access my LinkedIn profile and GitHub, where you can find more information about my career and projects. Also, be sure to scroll down to check out some of the projects I've worked on.",
 
     technologiesUsed: 'Technologies Used',
+    moreInformation: 'More information',
 
     laravel: 'Laravel',
     react: 'React',

@@ -19,6 +19,7 @@ export interface AppTranslationProps extends ResourceLanguage {
 
     // Project
     technologiesUsed: string
+    moreInformation: string
 
     // Projects
     laravel: string

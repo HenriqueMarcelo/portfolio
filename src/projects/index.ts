@@ -8,6 +8,7 @@ import imageSeminovos from '../assets/projects/seminovos.png'
 import imageFatorX from '../assets/projects/fatorx.png'
 import imageColors from '../assets/projects/colors.png'
 import imageVocabPlusPlus from '../assets/projects/vocab_plus_plus.png'
+import imageCatalogo from '../assets/projects/catalogo.png'
 
 import imagePortfolio from '../assets/projects/portfolio.png'
 import imageBookWise from '../assets/projects/book_wise.png'
@@ -36,15 +37,59 @@ export interface ProjectI18nType {
     description?: string
     technologies?: string
   }
-  category: 'laravel' | 'react' | 'vue' | 'react-native' | 'other'
+  category:
+    | 'laravel'
+    | 'react'
+    | 'Laravel e React'
+    | 'vue'
+    | 'react-native'
+    | 'other'
   image: string
   github?: string
   url?: string
+  info?: string
 }
 
 const projects = [
   {
-    id: 8,
+    id: 100,
+    title: 'Catálogo MGMobile',
+    enUS: {
+      description:
+        'A virtual catalog and B2B e-commerce, integrated with an ERP Desktop. The goal is to allow customers to place orders online, with these orders being sent directly to the ERP. The project was started by another development team. My responsibilities included fixing existing problems, putting the system into production and implementing new features.',
+      technologies:
+        'For this project, we used Laravel for the backend, MongoDB for the database, Tailwind CSS for responsive design, and jQuery for front-end interactions.',
+    },
+    ptBR: {
+      description:
+        'Um catálogo virtual e e-commerce B2B, integrado com um ERP Desktop. O objetivo é permitir que os clientes realizem pedidos online, com esses pedidos sendo enviados diretamente para o ERP. O projeto foi iniciado por outra equipe de desenvolvimento.  Minhas responsabilidades incluíram corrigir os problemas existentes, colocar o sistema em produção e implementar novas funcionalidades.',
+      technologies:
+        'Para este projeto, utilizamos Laravel para o backend, MongoDB para o banco de dados, Tailwind CSS para o design responsivo, e jQuery para interações no front-end.',
+    },
+    image: imageCatalogo,
+    url: 'https://ecommerce.mgmobile.com.br/loja/agua-na-boca',
+    info: 'https://mgmobile.com.br/ecommerce.html',
+    category: 'laravel',
+  },
+  {
+    id: 101,
+    title: 'CuboUP',
+    enUS: {
+      description:
+        'A complete ERP system where I worked specifically on the part of creating posts in social networks and obtaining permissions to do so.',
+      technologies: 'The system was built using Laravel, Bootstrap and VueJS.',
+    },
+    ptBR: {
+      description:
+        'Um sistema ERP completo onde eu trabalhei especificamente na parte de criação de postagens nas redes sociais e na obtenção de permissões para fazer tal ação.',
+      technologies:
+        'O sistema foi construído utilizando Laravel, Bootstrap e VueJS.',
+    },
+    image: imageCubo,
+    category: 'laravel',
+  },
+  {
+    id: 10,
     title: 'Fator X Live',
     enUS: {
       description:
@@ -59,7 +104,7 @@ const projects = [
         'Para o construção foi utilizado React, TypeScript, Redux, Bootstrap e SASS.',
     },
     image: imageFatorX,
-    category: 'react',
+    category: 'Laravel e React',
   },
   {
     id: 9,
@@ -319,25 +364,6 @@ const projects = [
     category: 'laravel',
   },
   {
-    id: 23,
-    title: 'Valesca Marotti',
-    enUS: {
-      description:
-        'A complete website and administrative system for a real estate company. Where, in the administrative system, the available properties that will be shown in the website are registered. The website also has searches and listings based on characteristics so that clients can find what they are looking for more easily.',
-      technologies:
-        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
-    },
-    ptBR: {
-      description:
-        'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
-      technologies:
-        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
-    },
-    image: imageValesca,
-    url: 'https://www.valescamarotti.com.br/',
-    category: 'laravel',
-  },
-  {
     id: 25,
     title: 'Nova Friburgo Country Clube',
     enUS: {
@@ -357,20 +383,22 @@ const projects = [
     category: 'laravel',
   },
   {
-    id: 26,
-    title: 'CuboUP',
+    id: 23,
+    title: 'Valesca Marotti',
     enUS: {
       description:
-        'A complete ERP system where I worked specifically on the part of creating posts in social networks and obtaining permissions to do so.',
-      technologies: 'The system was built using Laravel, Bootstrap and VueJS.',
+        'A complete website and administrative system for a real estate company. Where, in the administrative system, the available properties that will be shown in the website are registered. The website also has searches and listings based on characteristics so that clients can find what they are looking for more easily.',
+      technologies:
+        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
     },
     ptBR: {
       description:
-        'Um sistema ERP completo onde eu trabalhei especificamente na parte de criação de postagens nas redes sociais e na obtenção de permissões para fazer tal ação.',
+        'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
       technologies:
-        'O sistema foi construído utilizando Laravel, Bootstrap e VueJS.',
+        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
-    image: imageCubo,
+    image: imageValesca,
+    // url: 'https://www.valescamarotti.com.br/',
     category: 'laravel',
   },
   {
@@ -389,7 +417,7 @@ const projects = [
         'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem nossa identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageToyoserra,
-    url: 'https://www.toyoserra.com.br/',
+    // url: 'https://www.toyoserra.com.br/',
     category: 'laravel',
   },
   {
@@ -408,7 +436,7 @@ const projects = [
         'Para a construção utilizamos Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
     },
     image: imageSeminovos,
-    url: 'http://seminovos.toyoserra.com.br/',
+    // url: 'http://seminovos.toyoserra.com.br/',
     category: 'laravel',
   },
 

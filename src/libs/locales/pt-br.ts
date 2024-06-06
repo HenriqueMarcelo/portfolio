@@ -17,6 +17,7 @@ export default {
       'Convido você a clicar nos links abaixo para acessar meu perfil do LinkedIn e GitHub, onde você poderá encontrar mais informações sobre minha carreira e projetos desenvolvidos. Além disso, não deixe de rolar a página para conferir alguns dos projetos em que trabalhei.',
 
     technologiesUsed: 'Tecnologias Utilizadas',
+    moreInformation: 'Mais Infomrações',
 
     laravel: 'Laravel',
     react: 'React',

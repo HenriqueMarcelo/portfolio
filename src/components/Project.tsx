@@ -8,7 +8,14 @@ export interface ProjectType {
   image: string
   github?: string
   url?: string
-  category: 'laravel' | 'react' | 'vue' | 'react-native' | 'other'
+  info?: string
+  category:
+    | 'laravel'
+    | 'Laravel e React'
+    | 'react'
+    | 'vue'
+    | 'react-native'
+    | 'other'
 }
 
 interface ProjectProps {
@@ -67,6 +74,17 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
                 rel="noreferrer"
               >
                 Link
+              </a>
+            )}
+
+            {project?.info && (
+              <a
+                href={project.info}
+                className="bg-neutral-900 text-white py-3.5 px-7 rounded-full cursor-pointer hover:bg-neutral-700 transition shadow-sm shadow-neutral-500"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t('moreInformation')}
               </a>
             )}
           </div>
