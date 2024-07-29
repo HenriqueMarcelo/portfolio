@@ -9,6 +9,7 @@ import imageFatorX from '../assets/projects/fatorx.png'
 import imageColors from '../assets/projects/colors.png'
 import imageVocabPlusPlus from '../assets/projects/vocab_plus_plus.png'
 import imageCatalogo from '../assets/projects/catalogo.png'
+import imageMGPesquisas from '../assets/projects/mg_pesquisas.png'
 
 import imagePortfolio from '../assets/projects/portfolio.png'
 import imageBookWise from '../assets/projects/book_wise.png'
@@ -67,7 +68,7 @@ const projects = [
         'Para este projeto, utilizamos Laravel para o backend, MongoDB para o banco de dados, Tailwind CSS para o design responsivo, e jQuery para interações no front-end.',
     },
     image: imageCatalogo,
-    url: 'https://ecommerce.mgmobile.com.br/loja/agua-na-boca',
+    url: 'https://ecommerce.mgmobile.com.br/loja/docesborges',
     info: 'https://mgmobile.com.br/ecommerce.html',
     category: 'laravel',
   },
@@ -87,6 +88,24 @@ const projects = [
     },
     image: imageCubo,
     category: 'laravel',
+  },
+  {
+    id: 201,
+    title: 'MG Pesquisas',
+    enUS: {
+      description:
+        'This is a web-based system for creating and managing custom surveys. It allows questions with varying response types. Questions can be displayed or hidden based on the answers to other questions. Survey responses can be sent via email.',
+      technologies:
+        'Laravel was used for the backend and React via Inertia.JS for the frontend. The design was implemented with Tailwind CSS, the MongoDB database. Additionally, I implemented and configured a CI/CD process to ensure a continuous and efficient development and deployment flow.',
+    },
+    ptBR: {
+      description:
+        'Este é um sistema web para criar e gerenciar pesquisas personalizadas. Ele permite perguntas com tipos variados de resposta. As perguntas podem ser exibidas ou ocultadas com base nas respostas a outras perguntas. As respostas das pesquisas podem ser enviadas por e-mail.',
+      technologies:
+        'Foi utilizado Laravel para o backend e React via Inertia.JS para o front-end. O design foi implementado com Tailwind CSS, o banco de dados MongoDB. Além disso, implementei e configurei um processo de CI/CD para assegurar um fluxo de desenvolvimento e deploy contínuo e eficiente.',
+    },
+    image: imageMGPesquisas,
+    category: 'Laravel e React',
   },
   {
     id: 10,
@@ -382,25 +401,25 @@ const projects = [
     url: 'https://www.nfcc.com.br/',
     category: 'laravel',
   },
-  {
-    id: 23,
-    title: 'Valesca Marotti',
-    enUS: {
-      description:
-        'A complete website and administrative system for a real estate company. Where, in the administrative system, the available properties that will be shown in the website are registered. The website also has searches and listings based on characteristics so that clients can find what they are looking for more easily.',
-      technologies:
-        'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
-    },
-    ptBR: {
-      description:
-        'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
-      technologies:
-        'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
-    },
-    image: imageValesca,
-    // url: 'https://www.valescamarotti.com.br/',
-    category: 'laravel',
-  },
+  // {
+  //   id: 23,
+  //   title: 'Valesca Marotti',
+  //   enUS: {
+  //     description:
+  //       'A complete website and administrative system for a real estate company. Where, in the administrative system, the available properties that will be shown in the website are registered. The website also has searches and listings based on characteristics so that clients can find what they are looking for more easily.',
+  //     technologies:
+  //       'The website was built using Laravel and Bootstrap. For Bootstrap we used the "theming" function where we recompiled Bootstrap so that its default classes followed the visual identity. This way the development and especially the maintenance are greatly simplified.',
+  //   },
+  //   ptBR: {
+  //     description:
+  //       'Um website e sistema administrativo completo para uma imobiliária. Onde, no sistema administrativo, são cadastrados os imóveis disponíveis que serão exibidos no website. O website também possui buscas e listagem baseados nas características para que os clientes possam encontrar o que estão procurando com maior facilidade.',
+  //     technologies:
+  //       'O website foi construído utilizando Laravel e Bootstrap. Para o Bootstrap utilizamos a função “theming” onde recompilamos o Bootstrap para que suas classes padrões seguissem a identidade visual. Assim o desenvolvimento e principalmente a manutenção são muito simplificadas.',
+  //   },
+  //   image: imageValesca,
+  //   // url: 'https://www.valescamarotti.com.br/',
+  //   category: 'laravel',
+  // },
   {
     id: 20,
     title: 'Toyoserra',
@@ -440,25 +459,25 @@ const projects = [
     category: 'laravel',
   },
 
-  {
-    id: 36,
-    title: 'Ignite Quiz',
-    enUS: {
-      description:
-        'Ignite Quiz is a project developed within the Ignite course by React Native. The challenge has enhanced an existing application. During development, concepts of animations, microinteractions, visual, tactile and sound feedback were explored, aiming to provide a more interactive and engaging experience for users.',
-      technologies:
-        'Several technologies were used. For example: Skia for creating animations within Canvas, React Native Gesture Handler for interactions with user movements, React Native Reanimated for animations in application components, Expo AV for audio playback and Expo Haptics to activate the device vibration.',
-    },
-    ptBR: {
-      description:
-        'O Ignite Quiz é um projeto desenvolvido dentro do curso Ignite de React Native. O desafio foi aprimorar uma aplicação já existente. Durante o desenvolvimento, foram explorados conceitos de animações, microinterações, feedback visual, tátil e sonoro, visando proporcionar uma experiência mais interativa e envolvente para os usuários.',
-      technologies:
-        'Foram utilizadas diversas tecnologias. Por exemplo: Skia para criação de animações dentro do Canvas, o React Native Gesture Handler para interações com os movimentos dos usuários, o React Native Reanimated para animações nos componentes da aplicação, o Expo AV para reprodução de áudios e o Expo Haptics para ativar a vibração do dispositivo.',
-    },
-    image: imageIgniteQuiz,
-    github: 'https://github.com/HenriqueMarcelo/ignite-quiz',
-    category: 'react_native',
-  },
+  // {
+  //   id: 36,
+  //   title: 'Ignite Quiz',
+  //   enUS: {
+  //     description:
+  //       'Ignite Quiz is a project developed within the Ignite course by React Native. The challenge has enhanced an existing application. During development, concepts of animations, microinteractions, visual, tactile and sound feedback were explored, aiming to provide a more interactive and engaging experience for users.',
+  //     technologies:
+  //       'Several technologies were used. For example: Skia for creating animations within Canvas, React Native Gesture Handler for interactions with user movements, React Native Reanimated for animations in application components, Expo AV for audio playback and Expo Haptics to activate the device vibration.',
+  //   },
+  //   ptBR: {
+  //     description:
+  //       'O Ignite Quiz é um projeto desenvolvido dentro do curso Ignite de React Native. O desafio foi aprimorar uma aplicação já existente. Durante o desenvolvimento, foram explorados conceitos de animações, microinterações, feedback visual, tátil e sonoro, visando proporcionar uma experiência mais interativa e envolvente para os usuários.',
+  //     technologies:
+  //       'Foram utilizadas diversas tecnologias. Por exemplo: Skia para criação de animações dentro do Canvas, o React Native Gesture Handler para interações com os movimentos dos usuários, o React Native Reanimated para animações nos componentes da aplicação, o Expo AV para reprodução de áudios e o Expo Haptics para ativar a vibração do dispositivo.',
+  //   },
+  //   image: imageIgniteQuiz,
+  //   github: 'https://github.com/HenriqueMarcelo/ignite-quiz',
+  //   category: 'react_native',
+  // },
   {
     id: 36,
     title: 'Ignite Gym',
