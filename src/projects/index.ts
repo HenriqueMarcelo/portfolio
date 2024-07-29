@@ -106,6 +106,7 @@ const projects = [
     },
     image: imageMGPesquisas,
     category: 'Laravel e React',
+    url: 'https://pesquisas.mgmobile.com.br/pesquisa/Pesquisa-de-Satisfacao-Ficticia-do-Hotel-Sol-Nascente/66a7bbf5ecd0133869054f32',
   },
   {
     id: 10,
