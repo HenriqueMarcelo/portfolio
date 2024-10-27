@@ -1,10 +1,13 @@
 import React from 'react'
 import {render} from '@testing-library/react'
 import '../libs/i18n'
+import { MenuContextProvider } from '../contexts/MenuContext'
 
 const AllTheProviders = ({children}: {children: React.ReactNode}) => {
   return (
-    <>{children}</>
+    <MenuContextProvider>
+      {children}
+    </MenuContextProvider>
   )
 }
 

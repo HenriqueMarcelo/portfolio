@@ -36,7 +36,7 @@ export function Header() {
               {t('currentLanguage')}
             </DropdownLanguage>
           </nav>
-          <button className="md:hidden" onClick={handleToggleMenu}>
+          <button className="md:hidden" onClick={handleToggleMenu} aria-label='Open the menu'>
             <List size={36} />
           </button>
         </div>

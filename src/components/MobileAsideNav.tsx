@@ -19,7 +19,7 @@ export function MobileAsideNav() {
       }`}
     >
       <div className="flex flex-col gap-8 px-12 py-8">
-        <button className="self-end" onClick={handleToggleMenu}>
+        <button className="self-end" onClick={handleToggleMenu} aria-label="Close the menu">
           <X size="22"></X>
         </button>
         <a className="transition-all" href="#presentation">
