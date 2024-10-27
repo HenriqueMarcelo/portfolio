@@ -10,7 +10,7 @@ export interface ProjectType {
   url?: string
   info?: string
   category:
-    | 'laravel'
+    'laravel'
     | 'Laravel e React'
     | 'react'
     | 'vue'
@@ -29,7 +29,7 @@ export function Project({ orientation = 'left', project }: ProjectProps) {
   return (
     <article className="container mx-auto px-8">
       <div className="grid grid-cals-1 gap-8 md:grid-cols-2 lg:gap-32 pb-16 md:pb-20">
-        <div className={orientation === 'left' ? 'block md:hidden' : ''}>
+        <div className={orientation === 'left' ? 'block md:hidden' : ''} role="img">
           <img
             src={project.image}
             alt=""
